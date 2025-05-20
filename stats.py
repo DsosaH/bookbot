@@ -24,10 +24,3 @@ def get_sorted(dict):
         dic_list.append(new_dic)
     dic_list.sort(reverse=True, key=sort_on) 
     return dic_list
-
-##for test
-def main():
-    num_characters = get_num_characters("aAAAsdf6555554*/")
-    sorted = get_sorted(num_characters)
-    print(sorted[0]["char"])
-main()
